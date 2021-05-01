@@ -1,0 +1,36 @@
+.vertical-align{
+    vertical-align: middle;
+    width: 100%;
+}
+.profile-photo img{
+    width: 300px;
+    height: 300px;
+    border: 20px solid white;
+    border-radius: 200px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px lightblue;
+}
+
+.home-button{
+    border-radius: 40px;
+    margin-right: 10px;
+    width: 200px;
+    height: 50px;
+    background-color:#3bab87;
+    font-weight: 600;
+    color: white;
+}
+Button{
+    outline: none;
+    border: none;
+    background:transparent;
+}
+.home-button:hover{
+    /* box-shadow: 10px 10px 10px lightblue; */
+    transition: 1s;
+    transform:scale(1.1);
+    
+}
+.type-writer{
+    color:purple;
+}
