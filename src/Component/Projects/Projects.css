@@ -1,0 +1,22 @@
+.projects-container{
+    background-image: url(../../images/resume.png);
+    height: 760px;
+}
+.pro-head{
+    font-size: 30px;
+    color: rgb(197, 32, 156);
+    font-weight: 600;
+    font-family: inconsolata,monospace;
+
+}
+.pro-head::before{
+    content: "<";
+}
+.pro-head::after{
+    content: '>';
+}
+
+.box-container{
+    margin: 0 90px;
+    width: 85%;
+}

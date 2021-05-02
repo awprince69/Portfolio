@@ -1,7 +1,5 @@
-.vertical-align{
-    vertical-align: middle;
-    width: 100%;
-}
+
+
 .profile-photo img{
     width: 300px;
     height: 300px;
@@ -26,7 +24,6 @@ Button{
     background:transparent;
 }
 .home-button:hover{
-    /* box-shadow: 10px 10px 10px lightblue; */
     transition: 1s;
     transform:scale(1.1);
     

@@ -20,10 +20,10 @@ const ContactForm = () => {
     return (
         <div >
             <Col  md="6" className="mx-auto shadow-lg  my-3  p-3 px-4 formStyle"
-                // style={{ backgroundColor: "#172a50" }}
+                style={{ backgroundColor: "#172a50" }}
                 >
-                <h2 className="text-center mb-4 ">Get In Touch</h2>
-
+                <h2 className="text-center text-white mb-4 ">Send Message</h2>
+                <p className="text-center text-white">Email me: awprince.ynu@gmail.com </p>
                 <Form onSubmit={handleSubmit(onSubmit)}>
                     <Form.Group controlId="name">
                         <Form.Control type="text" name="user_name" {...register("user_name", ({ required: true }))} placeholder="Your Name" />

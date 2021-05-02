@@ -6,13 +6,13 @@ import photo from '../../../images/prince.jpg'
 import './HeaderMain.css'
 const HeaderMain = () => {
     return (
-        <section className=' container d-flex justify-content-center'>
+        <section className='container d-flex justify-content-center'>
             <div className='row'>
                 <div className='col-sm-12 col-lg-4 col-md-6 profile-photo'>
                     <img src={photo} alt="" />
                 </div>
                 <div className='col-sm-12 col-lg-7 col-md-6 mt-3 pt-1'>
-                    <p style={{fontSize:'20px'}}>Hi,I am</p>
+                    <p style={{ fontSize: '20px' }}>Hi,I am</p>
                     <h1>ABDUL WADUD PRINCE</h1>
                     <h6 className='type-writer'>
                         <TypewriterComponent
@@ -28,7 +28,7 @@ const HeaderMain = () => {
                     </p>
                     <div className=''>
                         <button className='home-button'>Download Resume</button>
-                        <Link to='/about' className='btn btn-outline-info' style={{borderRadius:'20px'}}>Get In Touch</Link>
+                        <Link to='/contact' className='btn btn-outline-info' style={{ borderRadius: '20px' }}>Get In Touch</Link>
                     </div>
                 </div>
             </div>
