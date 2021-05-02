@@ -53,7 +53,7 @@ const Resume = () => {
                         <h4 style={{ padding: ' 10px 6px' }}>Hello<br />
                             <TypewriterComponent
                                 options={{
-                                    strings: ['Everyon'],
+                                    strings: ['Everyone'],
                                     autoStart: true,
                                     loop: true,
                                 }}

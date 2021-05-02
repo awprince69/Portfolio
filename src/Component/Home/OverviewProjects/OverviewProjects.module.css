@@ -1,10 +1,10 @@
-.overView-Container{
+.overViewContainer{
     background: #333;
 }
 .overView{
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    min-height: 93vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +39,7 @@
 }
 
 .container .card:hover .face.face1{
-    background: #ff0057;
+    background: #50ddc6;
     transform: translateY(0);
 }
 
@@ -53,7 +53,8 @@
 }
 
 .container .card .face.face1 .content img{
-    max-width: 100px;
+    max-width: 95%;
+    margin: 0px 8px;
 }
 
 .container .card .face.face1 .content h3{

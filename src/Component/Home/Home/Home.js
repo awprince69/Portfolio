@@ -1,4 +1,5 @@
 import React from 'react';
+import BlogsView from '../BlogsView/BlogsView';
 import Header from '../Header/Header';
 import OverviewProjects from '../OverviewProjects/OverviewProjects';
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Header></Header>
             <OverviewProjects></OverviewProjects>
+            <BlogsView></BlogsView>
         </div>
     );
 };
