@@ -9,14 +9,10 @@ import TypewriterComponent from 'typewriter-effect';
 const OverviewProjects = () => {
     return (
         <section className={styles.overViewContainer}>
-            <h1 className='text-white text-center'><TypewriterComponent
-                    options={{
-                        strings: ['Projects Overview'],
-                        autoStart: true,
-                        loop: true,
-                    }} />
-            </h1>
             <div className={styles.overView}>
+                <h1 className='text-white text-center'>
+                    Some of my works here
+                </h1>
                 <div className={styles.container}>
                     <div className={styles.card}>
                         <div className={`${styles.face} ${styles.face1}`}>

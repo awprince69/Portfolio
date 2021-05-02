@@ -1,0 +1,11 @@
+.blogViewContainer{
+    background-image: url(../../../images/blog.jpg);
+    height: 765px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.blogText{
+   padding-top:300px ;
+   color:  #26555d;
+}
