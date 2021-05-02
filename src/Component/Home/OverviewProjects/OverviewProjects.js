@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './OverviewProjects.css'
 
 const OverviewProjects = () => {
@@ -16,7 +17,7 @@ const OverviewProjects = () => {
                         <div class="face face2">
                             <div class="content">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                                <a href="#">Read More</a>
+                                <Link to="/projects">Read More</Link>
                             </div>
                         </div>
                     </div>
@@ -30,7 +31,7 @@ const OverviewProjects = () => {
                         <div class="face face2">
                             <div class="content">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                                <a href="#">Read More</a>
+                                <Link to="/projects">Read More</Link>
                             </div>
                         </div>
                     </div>
@@ -44,7 +45,7 @@ const OverviewProjects = () => {
                         <div class="face face2">
                             <div class="content">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                                <a href="#">Read More</a>
+                                <Link to="/projects">Read More</Link>
                             </div>
                         </div>
                     </div>
