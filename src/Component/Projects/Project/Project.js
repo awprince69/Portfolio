@@ -17,7 +17,7 @@ const Project = ({ project }) => {
                     </div>
                 </div>
                 <div className='col-sm-12 mt-3 col-lg-5 col-md-6 '>
-                    <img src={img} alt="" width='130%' />
+                    <img src={img} alt="" width='130%' style={{height:'215px'}} />
                 </div>
             </div>
 

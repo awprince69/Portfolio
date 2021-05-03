@@ -1,9 +1,8 @@
 .pro-details{
     border-radius: 10px;
+    
 }
 .pro-details:hover{
-    background-color: #66ece8;
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     transition: 2s;
-    color: white;
 }

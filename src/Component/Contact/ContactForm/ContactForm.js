@@ -3,6 +3,9 @@ import { Button, Col, Form } from 'react-bootstrap';
 import { useForm } from "react-hook-form";
 import emailjs from 'emailjs-com';
 import './ContactForm.css'
+import email from '../../../images/at.png'
+import linked from '../../../images/linkedin.png'
+import git from '../../../images/github.png'
 
 const ContactForm = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
@@ -19,10 +22,10 @@ const ContactForm = () => {
     };
     return (
         <div >
-            <Col  md="6" className="mx-auto shadow-lg  my-3  p-3 px-4 formStyle"
+            <Col  md="6" className="mx-auto shadow  my-3  p-3 px-4 formStyle"
                 >
                 <h2 className="text-center text-white mb-4 ">Send Message</h2>
-                <p className="text-center text-white">Email me: awprince.ynu@gmail.com </p>
+                {/* <p className="text-center text-white">Email me: awprince.ynu@gmail.com </p> */}
                 <Form onSubmit={handleSubmit(onSubmit)}>
                     <Form.Group controlId="name">
                         <Form.Control type="text" name="user_name" {...register("user_name", ({ required: true }))} placeholder="Your Name" />
@@ -39,10 +42,15 @@ const ContactForm = () => {
                         {errors.message && <span>This field is required</span>}
                     </Form.Group>
                     <Form.Group className="text-center">
-                        <Button variant="outline-dark" type="submit" block>
+                        <Button variant="dark" type="submit" block>
                             Send
                         </Button>
                     </Form.Group>
+                    <div className='text-center' >
+                        <a style={{textDecoration:'none'}} href="https://www.linkedin.com/in/abdulwadudprince/" target='_blank' rel="noreferrer"><img src={linked} alt="" width='30'/></a>
+                        <a style={{textDecoration:'none'}} href="awprince.ynu@gmail.com" target='_blank' rel="noreferrer"> <img src={email} alt="" width='35'/></a> 
+                        <a style={{textDecoration:'none'}} href="https://github.com/awprince69" target='_blank' rel="noreferrer"> <img src={git} alt="" width='30'/></a>  
+                    </div>
                 </Form>
             </Col>
         </div >

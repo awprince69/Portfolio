@@ -5,7 +5,7 @@ import prince from '../../images/prince.jpg'
 import TypewriterComponent from 'typewriter-effect'
 import hat from '../../images/mortarboard.png'
 import Skills from './Skills/Skills';
-import name from '../../images/identification.png'
+import ProgressBar from 'react-bootstrap/ProgressBar'
 
 const Resume = () => {
     const SkillList = [
@@ -49,7 +49,7 @@ const Resume = () => {
     return (
         <section className='resume-container' >
             <div className='row '>
-                <div className='col-md-4 d-flex justify-content-center '>
+                <div className='col-md-4  justify-content-center '>
                     <div className='shadow offset-md-4 bio-container intro-container '>
                         <h4 className='text-center' style={{ padding: ' 10px 6px' }}>Hello<br />
                             <TypewriterComponent
@@ -69,34 +69,53 @@ const Resume = () => {
                         </div>
                         <a href="https://drive.google.com/file/d/1GC5_VsOkW2Mm1IvPhK2dimhKUNe9wxkR/view?usp=sharing" target='_blank' rel="noreferrer"><button className='resume-button mb-3 mt-3 pt-1'>Download Resume</button></a>
                     </div>
+                    {/* <div>
+                        <h4 className='mt-4' style={{ borderBottom: '3px solid gray', width: '120px' }}>
+                            Education
+                                 <img src={hat} alt="" width='60' />
+                        </h4>
+                        <h5>Software Engineering</h5>
+                        <h5><small>Yunnan University,china</small></h5>
+                        <h5><small>Time: Sept 2018-Present</small></h5>
+                    </div> */}
                 </div>
                 <div className='col-md-8'>
                     <div className='shadow resume-nav'>
                         <Navbar></Navbar>
                     </div>
-                    <div className='mt-5'>
+                    <div className='mt-4'>
                         <div>
-                            <h3 ><span style={{ borderBottom: '3px solid gray' }}>About Me</span>
-                            </h3>
-                            <p>I see myself as a committed person. To seek after a difficult vocation in a cutthroat world where energy, trustworthiness, challenging works, and enthusiasm will uphold me to develop myself. i want to contribute my insight and ability for proficient advancement in the pertinent field. As a programmer, I love taking challenges and love being a part of the solutions. My passion is to keep myself updated with all the latest technologies and tools.</p>
+                            <h4 ><span style={{ borderBottom: '3px solid gray' }}>About Me</span>
+                            </h4>
+                            <p style={{ textAlign: 'justify' }}>I see myself as a committed person. To seek after a difficult vocation in a cutthroat world where energy, trustworthiness, challenging works, and enthusiasm will uphold me to develop myself. i want to contribute my insight and ability for proficient advancement in the pertinent field. As a programmer, I love taking challenges and love being a part of the solutions. My passion is to keep myself updated with all the latest technologies and tools.</p>
                         </div>
-                        <div>
-                            <h3 style={{ borderBottom: '3px solid gray', width: '200px' }}>
-                                Education <img src={hat} alt="" width='60' />
-                            </h3>
+                    </div>
+                    <div className='d-flex justify-content-between'>
+                        {/* <div>
+                            <h4 className='' style={{ borderBottom: '3px solid gray', width: '120px' }}>
+                                Education
+                                  <img src={hat} alt="" width='60'/>
+                            </h4>
                             <h5>Software Engineering</h5>
                             <h5><small>Yunnan University,china</small></h5>
                             <h5><small>Time: Sept 2018-Present</small></h5>
-                        </div>
-                        <div>
-                            <h1 style={{ borderBottom: '3px solid gray',width:'200px'}} >
-                                My Skills
-                            </h1>
-                            <div className='d-flex justify-content-around'>
-                                {
-                                    SkillList.map(skill=><Skills skill={skill}></Skills>)
-                                }
-                            </div>
+                        </div> */}
+                        {/* <div>
+                            <h4 className='mt-4' style={{ borderBottom: '3px solid gray', width: '120px' }}>
+                                Education
+                                 <img src={hat} alt="" width='60'/>
+                            </h4>
+                            <h5>Software Engineering</h5>
+                            <h5><small>Yunnan University,china</small></h5>
+                            <h5><small>Time: Sept 2018-Present</small></h5>
+                        </div> */}
+                    </div>
+                    <div className='mt-3'>
+                        <h4 style={{ borderBottom: '3px solid gray', width: '120px' }} >
+                            My Skills
+                            </h4>
+                        <div className='skills-container'>
+                            <Skills></Skills>
                         </div>
                     </div>
                 </div>
