@@ -29,7 +29,7 @@ const HeaderMain = () => {
                         <p>I see myself as a committed person. To seek after a difficult vocation in a cutthroat world
                         where energy, trustworthiness, challenging works, and enthusiasm will uphold me to develop myself. i want to contribute my insight and ability for proficient advancement in the pertinent field. As a  programmer, I love taking challenges and love being a part of the solutions. My passion is to keep myself updated with all the latest technologies and tools.
                     </p>
-                        <div className=''>
+                        <div className='pt-2'>
                             <button className='home-button'>Download Resume</button>
                             <Link to='/contact' className='btn btn-outline-info' style={{ borderRadius: '20px' }}>Get In Touch</Link>
                         </div>

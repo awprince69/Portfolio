@@ -20,7 +20,6 @@ const ContactForm = () => {
     return (
         <div >
             <Col  md="6" className="mx-auto shadow-lg  my-3  p-3 px-4 formStyle"
-                style={{ backgroundColor: "#172a50" }}
                 >
                 <h2 className="text-center text-white mb-4 ">Send Message</h2>
                 <p className="text-center text-white">Email me: awprince.ynu@gmail.com </p>
@@ -40,13 +39,10 @@ const ContactForm = () => {
                         {errors.message && <span>This field is required</span>}
                     </Form.Group>
                     <Form.Group className="text-center">
-                        <Button variant="outline-info" type="submit" block>
+                        <Button variant="outline-dark" type="submit" block>
                             Send
                         </Button>
                     </Form.Group>
-                    {/* <p class="font-italic">
-                        Sending to <u><a href=""></a></u>
-                    </p> */}
                 </Form>
             </Col>
         </div >

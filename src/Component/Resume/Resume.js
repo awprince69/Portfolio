@@ -5,6 +5,7 @@ import prince from '../../images/prince.jpg'
 import TypewriterComponent from 'typewriter-effect'
 import hat from '../../images/mortarboard.png'
 import Skills from './Skills/Skills';
+import name from '../../images/identification.png'
 
 const Resume = () => {
     const SkillList = [
@@ -49,8 +50,8 @@ const Resume = () => {
         <section className='resume-container' >
             <div className='row '>
                 <div className='col-md-4 d-flex justify-content-center '>
-                    <div className='shadow offset-md-4 bio-container intro-container text-center'>
-                        <h4 style={{ padding: ' 10px 6px' }}>Hello<br />
+                    <div className='shadow offset-md-4 bio-container intro-container '>
+                        <h4 className='text-center' style={{ padding: ' 10px 6px' }}>Hello<br />
                             <TypewriterComponent
                                 options={{
                                     strings: ['Everyone'],
@@ -60,14 +61,13 @@ const Resume = () => {
                             />
                         </h4>
                         <img src={prince} alt="" />
-                        <div className='mt-2'>
-                            <p>Name:Abdul Wadud Prince</p>
-                            <p>Birthday: 30 October</p>
-                            <p>Job: Seeking</p>
+                        <div className='mt-3  mx-2 bio-text'>
+                            <p>Name: Abdul Wadud Prince</p>
+                            <p>Profession: Student</p>
+                            <p>Phone: +8615508895493</p>
                             <p>Email: awprince.ynu@gmail.com</p>
-                            <p>LinkedIn: henryrooney85</p>
                         </div>
-                        <a href="https://drive.google.com/file/d/1GC5_VsOkW2Mm1IvPhK2dimhKUNe9wxkR/view?usp=sharing" target='_blank'><button className='resume-button mb-3'>Download Resume</button></a>
+                        <a href="https://drive.google.com/file/d/1GC5_VsOkW2Mm1IvPhK2dimhKUNe9wxkR/view?usp=sharing" target='_blank' rel="noreferrer"><button className='resume-button mb-3 mt-3 pt-1'>Download Resume</button></a>
                     </div>
                 </div>
                 <div className='col-md-8'>

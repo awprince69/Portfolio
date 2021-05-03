@@ -9,11 +9,11 @@
 .bio-container{
     margin-top: 50px;
     width: 250px;
-    height: 453px;
+    height: 476px;
 }
 .bio-container img{
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     border-radius: 100px;
     margin-left: 50px;
 }
@@ -30,4 +30,10 @@
     background-color:#3bab87;
     font-weight: 600;
     color: white;
+    margin-left: 47px;
+}
+
+.bio-text{
+    font-weight: 600;
+    font-size: 15px;
 }
