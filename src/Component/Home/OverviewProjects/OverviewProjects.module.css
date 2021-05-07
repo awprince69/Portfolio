@@ -2,11 +2,15 @@
     background: #333;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 105vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: consolas;
+}
+.overView{
+    text-align: center;
+    color: white;
 }
 
 .container{
@@ -98,4 +102,31 @@
 .container .card .face.face2 .content a:hover{
     background: #333;
     color: #fff;
+}
+
+@media  (max-width: 688px){
+    .overViewContainer{
+        background: #333;
+        margin: 0;
+        padding: 0;
+        height: 171vh;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        font-family: consolas;
+        margin-top: 100px;
+    }
+    .container{
+        width: 0px;
+        height: 1px;
+        display:block;
+        margin-left: 88px;
+    }
+    .overView{
+        text-align: center;
+        color: white;
+        padding-top: 15px;
+    }
+    
+    
 }

@@ -49,7 +49,7 @@ li.css:after {
 
 @keyframes css {
     to {
-        width: 90%;
+        width: 80%;
     }
 }
 
@@ -69,7 +69,7 @@ li.rc:after {
 
 @keyframes rc {
     to {
-        width: 80%;
+        width: 75%;
     }
 }
 li.word:after {
@@ -78,7 +78,7 @@ li.word:after {
 
 @keyframes word {
     to {
-        width: 70%;
+        width: 90%;
     }
 }
 li.c:after {

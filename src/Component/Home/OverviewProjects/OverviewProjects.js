@@ -1,16 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './OverviewProjects.module.css'
-import login from '../../../images/login.png'
-import amana from '../../../images/amanaLog.png'
-import trip from '../../../images/tripAdvisor.png'
-import TypewriterComponent from 'typewriter-effect';
-
 const OverviewProjects = () => {
     return (
         <section className={styles.overViewContainer}>
-            <div className={styles.overView}>
-                <h1 className='text-white text-center'>
+            <div>
+                <h1 className={styles.overView}>
                     Some of my works here
                 </h1>
                 <div className={styles.container}>
