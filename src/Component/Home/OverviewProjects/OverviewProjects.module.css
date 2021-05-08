@@ -116,10 +116,9 @@
     }
     .container{
         width: 0px;
-        display: flex;
-        flex-direction: column;
+        display: block;
         margin-left: 88px;
-        margin-bottom: 50px;
+        margin-bottom: 80px;
     }
     .overView{
         text-align: center;

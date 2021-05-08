@@ -1,7 +1,7 @@
 .resume-container{
     background-image: url(../../images/resume.png);
     height: 760px;
-    width: 99%;
+    width: 98%;
 }
 .intro-container{
     border-radius: 10px;
@@ -25,15 +25,35 @@
 
 .resume-button{
     border-radius: 40px;
-    width: 150px;
-    height: 40px;
+    width: 162px;
+    height: 43px;
     background-color:#3bab87;
     font-weight: 600;
     color: white;
-    margin-left: 47px;
+    margin-left: 42px;
+    display: inline-block;
 }
 
 .bio-text{
     font-weight: 600;
     font-size: 15px;
+}
+@media  (max-width: 688px){
+    .bio-container{
+        margin-top: 50px;
+        width: 250px;
+        height: 486px;
+    }
+    .resume-button{
+        width: 170px;
+        height: 52px;
+        background-color:#3bab87;
+        font-weight: 600;
+        color: white;
+        margin-left: 42px;
+        display: inline-block;
+    }
+    .resume-container{
+        width: 96%;
+    }
 }
