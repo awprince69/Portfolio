@@ -110,23 +110,20 @@
         margin: 0;
         padding: 0;
         height: 171vh;
-        display: block;
-        justify-content: center;
         align-items: center;
         font-family: consolas;
-        margin-top: 100px;
+        margin-top: 150px;
     }
     .container{
         width: 0px;
-        height: 1px;
-        display:block;
+        display: flex;
+        flex-direction: column;
         margin-left: 88px;
+        margin-bottom: 50px;
     }
     .overView{
         text-align: center;
         color: white;
         padding-top: 15px;
-    }
-    
-    
+    } 
 }
