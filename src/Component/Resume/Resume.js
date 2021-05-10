@@ -27,7 +27,7 @@ const Resume = () => {
                             <p>Phone: +8615508895493</p>
                             <p>Email: awprince.ynu@gmail.com</p>
                         </div>
-                        <a href="https://drive.google.com/file/d/1GC5_VsOkW2Mm1IvPhK2dimhKUNe9wxkR/view?usp=sharing" target='_blank' rel="noreferrer"><button className='resume-button mb-3 mt-3'>Download Resume</button></a>
+                        <a href="https://drive.google.com/file/d/1c0ym_R40SL3u7-ARr4jc_t83-3yKG9-l/view?usp=sharing" target='_blank' rel="noreferrer"><button className='resume-button mb-3 mt-3'>Download Resume</button></a>
                     </div>
                 </div>
                 <div className='col-md-8'>
