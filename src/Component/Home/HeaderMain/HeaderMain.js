@@ -30,7 +30,7 @@ const HeaderMain = () => {
                         where energy, trustworthiness, challenging works, and enthusiasm will uphold me to develop myself. i want to contribute my insight and ability for proficient advancement in the pertinent field. As a  programmer, I love taking challenges and love being a part of the solutions. My passion is to keep myself updated with all the latest technologies and tools.
                     </p>
                         <div className='pt-2'>
-                            <a href="https://drive.google.com/file/d/1c0ym_R40SL3u7-ARr4jc_t83-3yKG9-l/view?usp=sharing" target='_blank' rel="noreferrer"><button className='home-button'>Download Resume</button></a>
+                            <a href="https://drive.google.com/file/d/1qMjPY3eQ6xDwLD6hiXX5Jva5p_5VwCEm/view?usp=sharing" target='_blank' rel="noreferrer"><button className='home-button'>Download Resume</button></a>
                             <Link to='/contact' className='btn btn-outline-info' style={{ borderRadius: '20px' }}>Get In Touch</Link>
                         </div>
                     </div>
