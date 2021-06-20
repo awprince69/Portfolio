@@ -1,0 +1,42 @@
+.blog-button a {
+  font-size: 16px;
+  color: #a50e98;
+  position: relative;
+}
+.blog-button a:hover {
+  text-decoration: none;
+  color: #a50e98;
+}
+.blog-button a:after {
+  position: absolute;
+  content: "";
+  top: 110%;
+  left: 0;
+  width: 95%;
+  height: 2px;
+  background: #a50e98;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+  transform-origin: right;
+}
+
+.blog-button a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.blog-button {
+  padding: 1.5rem 1.1rem;
+}
+.blog-img {
+  overflow: hidden;
+}
+.blog-img img {
+  width: 100%;
+  height: 15rem;
+  display: block;
+  position: relative;
+  transition: 0.3s all ease;
+}
+.blog-img img:hover {
+  transform: scale(1.2);
+}

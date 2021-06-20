@@ -1,0 +1,28 @@
+.blog-small-img {
+  overflow: hidden;
+}
+.blog-small-img img {
+  transition: 0.3s all ease;
+}
+
+.blog-img img:hover,
+.blog-small-img img:hover {
+  transform: scale(1.2);
+}
+
+.blog-item-small {
+  background: #2e2e34;
+  overflow: hidden;
+  position: relative;
+}
+
+.blog-small-description {
+  font-size: 16px;
+  line-height: 26px;
+  padding: 10px;
+}
+.blog-lists-wrapper .blog-small-img img {
+  width: 137px;
+  height: 155px;
+  object-fit: cover;
+}
